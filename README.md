@@ -10,8 +10,8 @@ ExtentReports: Biblioteca para la generación de reportes HTML detallados.
 
 # Ejecución de las Pruebas
 Para ejecutar las pruebas, puedes utilizar los runners de JUnit que se encuentran en src/test/java/runners.  
-Esta clase lo que hara es ejecutar los casos de pruebas con el tag "@Test" dentro de los archivos ".feature", y creara un reporte al finalizar la ejecucion en src/test/resources/reports/html-report.html  
-Se incluye en el plan de pruebas un caso el cual falla de manera predeterminada para asi poder ver en el resultado de la ejecucion el ejemplo de un caso fallido.
+Esta clase lo que hará es ejecutar los casos de pruebas con el tag "@Test" dentro de los archivos ".feature", y creara un reporte al finalizar la ejecucion en src/test/resources/reports/html-report.html
 
 # Reporte HTML
-Al finalizar la ejecucion del ciclo de pruebas se creara un archivo de reporte el cual incluirá capturas de pantalla cuando el caso falle.
+Al finalizar la ejecucion del ciclo de pruebas se creara un archivo de reporte el cual incluirá capturas de pantalla cuando el caso falle.  
+Se incluye en el plan de pruebas un caso el cual falla de manera predeterminada para así poder ver en el resultado de la ejecución el ejemplo de un caso fallido.
